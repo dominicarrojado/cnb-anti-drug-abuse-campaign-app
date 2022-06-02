@@ -5,7 +5,7 @@ import { Button as ReakitButton } from 'reakit/Button';
 import { trackEvent } from '../lib/google-analytics';
 import { Entry, GoogleAnalyticsEvent, Route } from '../lib/types';
 import { StoreContext } from '../lib/store';
-import { PROJECT_TITLE } from '../lib/constants';
+import { ENTRY_IMAGE_SIZE, PROJECT_TITLE } from '../lib/constants';
 
 type Props = {
   entry: Entry;
@@ -37,8 +37,8 @@ export default function EntryItem({ entry }: Props) {
       <img
         src={entry.imageUrl}
         alt={`${entry.name} pledge`}
-        width="345"
-        height="345"
+        width={ENTRY_IMAGE_SIZE}
+        height={ENTRY_IMAGE_SIZE}
         className={cn(
           'w-[245px] max-w-full h-auto aspect-square',
           'transition-opacity group-hover:opacity-80 group-focus:opacity-80'

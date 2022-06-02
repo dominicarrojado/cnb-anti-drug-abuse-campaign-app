@@ -24,6 +24,7 @@ export default function StickerItem({
   return (
     <ReakitButton
       {...props}
+      as="li"
       className={cn(
         'relative w-[132px] h-[132px] bg-white',
         'transition-all',
@@ -41,7 +42,7 @@ export default function StickerItem({
         alt={sticker.imageAlt}
         width={ENTRY_IMAGE_SIZE}
         height={ENTRY_IMAGE_SIZE}
-        className="w-full h-auto aspect-[345/345]"
+        className="w-full h-auto aspect-square"
         draggable={false}
       />
     </ReakitButton>

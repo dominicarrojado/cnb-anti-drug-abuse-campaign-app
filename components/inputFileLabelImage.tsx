@@ -36,7 +36,7 @@ export default function InputFileLabelImage({
         width="328"
         height="328"
         className={cn(
-          'max-w-full h-auto aspect-[328/328] select-none',
+          'max-w-full h-auto aspect-square select-none',
           'sm:transition-opacity sm:group-hover:opacity-50'
         )}
         draggable={false}
