@@ -26,6 +26,7 @@ export const ENTRY_IMAGE_SIZE = 345;
 export const IMAGE_GENERATED_TYPE = 'image/png';
 export const IMAGE_DOWNLOAD_TITLE = 'cnb-anti-drug-abuse-campaign-pledge';
 export const IMAGE_DOWNLOAD_FILE_EXT = IMAGE_GENERATED_TYPE.split('/')[1];
+export const IMAGE_CROP_TIMEOUT = 1000;
 
 export const FONTS = [
   'DIN-Regular',
