@@ -2,7 +2,7 @@ import { getAssetUrl } from './assets';
 import { Sticker } from './types';
 
 export const SITE_NAME = 'Dominic Arrojado';
-export const PROJECT_TITLE = 'CNB Anti-Drug Abuse Campaign';
+export const PROJECT_TITLE = 'CNB Anti-Drug Abuse Campaign Singapore';
 export const MAIN_AUTHOR = 'Dominic Arrojado';
 export const MAIN_TITLE = `${PROJECT_TITLE} | ${SITE_NAME}`;
 export const MAIN_DESC =
